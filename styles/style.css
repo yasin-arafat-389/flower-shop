@@ -21,7 +21,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .banner-title{
@@ -320,7 +320,6 @@
 /* Customer review styles */
 .customer-review{
     margin-top: 100px;
-    margin-bottom: 100px;
     background-color: #CAFAFE;
     padding: 70px 0px;
 }
@@ -409,3 +408,82 @@
 .fa-star{
     font-size: 25px !important;
 }
+
+/* Newsletter styles */
+.newsletter{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.newsletter-container{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-image: url("../images/Rectangle-9.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content{
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter-container h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.newsletter-container p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.newsletter-container form{
+    padding-top: 40px;
+}
+
+.newsletter-container form input[type=text]{
+    outline: none;
+    border: none;
+    height: 25px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 42%;
+}
+
+.subscribe-button{
+    width: 120px;
+    padding: 10px 0px;
+    margin-left: 15px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background-color: #E55473;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+

@@ -21,7 +21,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .banner-title{
@@ -411,13 +411,13 @@
 
 /* Newsletter styles */
 .newsletter{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .newsletter-container{
     width: 80%;
-    height: 350px;
+    height: 470px;
     margin: auto;
     background-image: url("../images/Rectangle-9.png");
     background-repeat: no-repeat;

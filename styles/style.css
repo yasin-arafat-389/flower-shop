@@ -73,7 +73,7 @@
 /* Featured Flowers Styles */
 
 .flowers-container{
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 100px;
     height: 600px;
@@ -125,7 +125,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("/images/pngwing\ 6.png");
+    background-image: url("/images/pngwing 6.png");
     background-repeat: no-repeat;
     background-size: 80% 80%;
     background-position: bottom center;
@@ -139,7 +139,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("/images/pngwing\ 5.png");
+    background-image: url("/images/pngwing 5.png");
     background-repeat: no-repeat;
     background-size: 80% 80%;
     background-position: center center;
@@ -153,7 +153,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("/images/pngwing\ 7.png");
+    background-image: url("/images/pngwing 7.png");
     background-repeat: no-repeat;
     background-size: 80% 80%;
     background-position: bottom center;
@@ -257,7 +257,6 @@
     padding-bottom: 30px;
 }
 
-
 .deal-image{
     width: 50%;
     text-align: center;
@@ -265,4 +264,54 @@
 
 .deal-image img{
     width: 45%;
+}
+
+/* Instagram section styles */
+.instagram{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.insta-container{
+    width: 80%;
+    margin: auto;
+}
+
+.instagram-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.instagram-content h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instagram-content p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 85%;
+    margin: auto;
+    padding-top: 17px;
+}
+
+.insta-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.insta-images img{
+    width: 23%;
 }
